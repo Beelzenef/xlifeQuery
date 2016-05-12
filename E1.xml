@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Elena Guzmán Blanco - 1ºDAM (LM) Tema 7 - Actividad 5 -->
+<?xml-stylesheet type="text/xsl" href="E5.xsl"?>
+
+<Bailes>
+  
+  <baile id="1">
+    <nombre>Tango</nombre>
+    <precio cuota="mensual" moneda="€">27</precio>
+    <plazas>20</plazas>
+    <comienzo>
+      <dia>1</dia>
+      <mes>10</mes>
+      <anio>2011</anio>
+    </comienzo>
+    <fin>
+      <dia>1</dia>
+      <mes>11</mes>
+      <anio>2011</anio>
+    </fin>
+    <profesor>
+      <nombre>Roberto</nombre>
+      <apellido>García</apellido>
+    </profesor>
+    <profesor>
+      <nombre>Roberto</nombre>
+      <apellido>García</apellido>
+    </profesor>
+    <sala>1</sala>
+  </baile>
+
+
+<baile id="2">
+<nombre>Cha-cha-cha</nombre>
+<precio cuota="mensual" moneda="€">37</precio>
+<plazas>20</plazas>
+<comienzo>
+<dia>1</dia>
+<mes>11</mes>
+<anio>2011</anio>
+</comienzo>
+<fin>
+<dia>1</dia>
+<mes>2</mes>
+<anio>2012</anio>
+</fin>
+<profesor>
+<nombre>Juan</nombre>
+<apellido>Gil</apellido>
+</profesor>
+<sala>1</sala>
+</baile>
+<baile id="3">
+<nombre>Rock</nombre>
+<precio cuota="mensual" moneda="€">30</precio>
+<plazas>15</plazas>
+<comienzo>
+<dia>1</dia>
+<mes>11</mes>
+<anio>2011</anio>
+</comienzo>
+<fin>
+<dia>1</dia>
+<mes>2</mes>
+<anio>2012</anio>
+</fin>
+<profesor>
+<nombre>Laura</nombre>
+<apellido>Mendila</apellido>
+</profesor>
+<sala>2</sala>
+</baile>
+<baile id="4">
+<nombre>Merengue</nombre>
+<precio cuota="trimestral" moneda="$">75</precio>
+<plazas>12</plazas>
+<comienzo>
+<dia>1</dia>
+<mes>11</mes>
+<anio>2011</anio>
+</comienzo>
+<fin>
+<dia>1</dia>
+<mes>2</mes>
+<anio>2012</anio>
+</fin>
+<profesor>
+<nombre>Jesús</nombre>
+<apellido>Lozano</apellido>
+</profesor>
+<profesor>
+<nombre>Sara</nombre>
+<apellido>Marfíl</apellido>
+</profesor>
+<sala>2</sala>
+</baile>
+<baile id="5">
+<nombre>Salsa</nombre>
+<precio cuota="mensual" moneda="$">32</precio>
+<plazas>10</plazas>
+<comienzo>
+<dia>1</dia>
+<mes>11</mes>
+<anio>2011</anio>
+</comienzo>
+<fin>
+<dia>1</dia>
+<mes>2</mes>
+<anio>2012</anio>
+</fin>
+<profesor>
+<nombre>Roberto</nombre>
+<apellido>García</apellido>
+</profesor>
+<sala>2</sala>
+</baile>
+<baile id="6">
+<nombre>Pasodoble</nombre>
+<precio cuota="anual" moneda="€">320</precio>
+<plazas>8</plazas>
+<comienzo>
+<dia>1</dia>
+<mes>11</mes>
+<anio>2011</anio>
+</comienzo>
+<fin>
+<dia>1</dia>
+<mes>2</mes>
+<anio>2012</anio>
+</fin>
+<profesor>
+<nombre>Miriam</nombre>
+<apellido>Gutierrez</apellido>
+</profesor>
+<sala>2</sala>
+</baile>
+</Bailes>

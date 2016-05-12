@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+<libro categoria="Informatica">
+<titulo idioma="SP">Programacion en C#</titulo>
+<editorial>McGraw Hill</editorial>
+<autores>
+<autor>
+<apellidos>Charte</apellidos>
+<nombre>Francisco</nombre>
+</autor>
+</autores>
+<anio>2009</anio>
+<precio moneda="€">45</precio>
+<isbn>84-9815-002-7</isbn>
+</libro>
+<libro categoria="Ficcion">
+<titulo idioma="SP">La Celestina</titulo>
+<editorial>Planeta</editorial>
+<autor>
+<apellidos>de Rojas</apellidos>
+<nombre>Fernando</nombre>
+</autor>
+<anio>1999</anio>
+<precio moneda="$">41.32</precio>
+<isbn>84-96390-96-9</isbn>
+</libro>
+<libro categoria="Otros">
+<titulo idioma="SP">Don Juan Tenorio</titulo>
+<editorial>Planeta</editorial>
+<autores>
+<autor>
+<apellidos>Zorilla</apellidos>
+<nombre>Jose</nombre>
+</autor>
+</autores>
+<anio>1990</anio>
+<precio moneda="$">50</precio>
+<isbn>84-96390-97-7</isbn>
+</libro>
+<libro categoria="Informatica">
+<titulo idioma="SP">Programacion en Visual Basic</titulo>
+<autores>
+<autor>
+<apellidos>Charte</apellidos>
+<nombre>Francisco</nombre>
+</autor>
+</autores>
+<anio>2002</anio>
+<precio moneda="€">45.33</precio>
+<isbn>84-98111-004-7</isbn>
+</libro>
+<libro categoria="Informatica">
+<titulo idioma="SP">XML Imprescindible</titulo>
+<editorial>Anaya</editorial>
+<autores>
+<autor>
+<apellidos>Rusty</apellidos>
+<nombre>Elliotte</nombre>
+</autor>
+<autor>
+<apellidos>Means</apellidos>
+<nombre>W.Scott</nombre>
+</autor>
+</autores>
+<anio>2005</anio>
+<precio moneda="€">52.33</precio>
+<isbn>84-415-1812-2</isbn>
+</libro>
+<libro categoria="Oratoria">
+<titulo idioma="SP">El arte de hablar</titulo>
+<autores></autores>
+<anio>2010</anio>
+<precio moneda="€">32.33</precio>
+<isbn>84-455-1512-3</isbn>
+</libro>
+</biblioteca>
