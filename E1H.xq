@@ -1,8 +1,6 @@
 (: Elena Guzman Blanco - LM T8 - E1B  :)
-(:Mostrar en una tabla de XHTML los siguientes datos: Nº de línea, nombre del baile, fecha inicio
-(dd/mm/aaaa), fecha finalización (dd/mm/aaaa) y precio-moneda. :)
-
-declare variable $contador as xs:integer := 1;
+(:Mostrar en una tabla de XHTML los siguientes datos: NÂº de lÃ­nea, nombre del baile, fecha inicio
+(dd/mm/aaaa), fecha finalizaciÃ³n (dd/mm/aaaa) y precio-moneda. :)
 
 <html>
 <body>
@@ -15,11 +13,11 @@ declare variable $contador as xs:integer := 1;
 	<th>Precio (moneda)</th>
 </tr>
 {
-	for $bailes in doc(".\E1.xml")//baile
+	for $bailes at $pos in doc(".\E1.xml")//baile
 	return 
 	<tr>
 	<td>	{
-		$contador
+		$pos
 	}	</td>
 	<td>	{
 		data($bailes/nombre)
@@ -33,7 +31,6 @@ declare variable $contador as xs:integer := 1;
 	<td>	{
 		data($bailes/precio)} ({data($bailes/precio/@moneda)})
 	</td>
-		{ $contador := $contador + 1; }
 	</tr>
 
 }
